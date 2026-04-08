@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* declaration des variables */
+:root{
+    --btn-color : #3E3232;
+    --ruban: #443434;
+    --contact-color: #DFCECE;
+    --police_poppins: ¨Poppins¨, sans-serif;
+    --var_1: 5.5rem;
+    --var_2: 2.4rem;
+}
+
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--police_poppins);
+}
+
+html{
+    font-size: 10px;
+}
+
+/* pour la partie le l'entete de notre page */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2.8rem;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 4rem;
+    font-size: var(--var_2);
+    list-style: none;
+}
+
+.btn1{
+    background-color: var(--btn-color);
+    color: var(--contact-color);
+    height: 6.8rem;
+    width: 15.8rem;
+    font-family: var(--police_poppins);
+    padding: 1.35rem 3rem 1.85rem 2.9rem;
+    border: 0px solid;
+    font-size: var(--var_2);
+}
+
+/* premier section a work */
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.btn2{
+    background-color: var(--btn-color);
+    color: var(--contact-color);
+    font-family: var(--police_poppins);
+    padding: 1.895rem 4.187rem;
+    border: 0px;
+    font-size: 3rem;
+}
+
+.l1{
+    font-family: var(--police_poppins);
+    font-size: 4.8rem;
+}
+
+section>div>p{
+    font-size: var(--var_2);
+    font-family: var(--police_poppins);
+}
+.passion{
+    margin-left: 6.5rem;
+}
+
+/* deuxieme section a work */
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Meilleur{
+    margin-right: 11.8rem;
+}
+
+.l2{
+    font-family: var(--police_poppins);
+    font-size: 5.5rem;
+}
+
+/* troisieme partie a work */
+.sec3{
+    margin-top: 15rem;
+    background-color: var(--ruban);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 15.3rem 4.2rem;
+}
+h3{
+    font-size: 5.5rem;
+}
+
+/* quatrieme section a work */
+.sec4>.block{
+    display: flex;
+    justify-content: space-between;
+    margin: 14.4rem 6.8rem;
+}
+
+.sec4>.block>.bloc1{
+    position: relative;
+}
+.sec4>.block>.bloc1>.img2{
+    position: absolute;
+    right: 7rem;
+    top: 5rem;
+}
+
+.sec4>.block>.bloc2{
+    position: relative;
+}
+.sec4>.block>.bloc2>.img4{
+    position: absolute;
+    right: 7rem;
+    top: 7rem;
+}
+
+.sec4>.block1{
+    display: flex;
+    justify-content: space-between;
+    margin: 14.4rem 6.8rem;
+}
+.sec4>.block1>.bloc3{
+    position: relative;
+}
+.sec4>.block1>.bloc3>.tof2{
+    position: absolute;
+    right: 15rem;
+    top: 7rem;
+}
+
+.sec4>.block1>.bloc4{
+    position: relative;
+}
+.sec4>.block1>.bloc4>.tof4{
+    position: absolute;
+    right: 15rem;
+    top: 7rem;
+}
